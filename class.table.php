@@ -65,7 +65,7 @@ class Table {
     // Destructor
     public function __destruct() {
         
-        $this -> dbo -> NULL;
+        $this -> dbo = NULL;
         
         $this -> table_name = "";
         
@@ -77,7 +77,7 @@ class Table {
         
         $result = TRUE;
         
-        if (trim.$this -> table_name == '') { return FALSE; }  // empty table name or table does not exist
+        if (trim($this -> table_name == '')) { return FALSE; }  // empty table name or table does not exist
         
         try {
             
