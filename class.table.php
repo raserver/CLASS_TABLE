@@ -5,7 +5,7 @@
  * 
  * 2019, ra-server.pl
  * 
- * Licence: free to use and edit
+ * License: free to use and edit
  */
 
 require 'db_params.php';
